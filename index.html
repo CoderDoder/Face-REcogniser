@@ -1,0 +1,53 @@
+ 
+<html>
+  <head>
+    <title>Face recogniser</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+   <link rel="stylesheet" href="style.css">
+   <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+  </head>
+
+  <body>
+  <div class="container">
+    
+    <center>
+      <h3 class="btn btn-primary heading">Face Recogniser</h3>
+      <br><br>
+
+      <p style="font-size: 22px;">Model is trained to identify the following faces: </p>
+      <b class="name_of_person">
+        Mom<hr>
+        Dad<hr>
+        Sister<hr>
+        Grandpa<hr>
+      </b>
+      <label id="h_webcam">Webcam View :- </label>
+      <div id="camera">
+
+      </div>
+
+      <br><br>
+      <div id="results"></div>
+      <br><br>
+       <button id="snapshot" class="btn btn-primary button" onclick="snap_shot()">Take A Snap</button>
+      <br><br>
+      <button onclick="identify()" id="btnCheck" class="btn btn-primary button">Check</button> 
+      <br><br>
+
+      <p style="font-size: 22px;">Person :<span id="result_name">:) result</span>  </p>
+      <p style="font-size: 22px;">Accuracy :<span id="result_accuracy">:( accuracy</span>  </p>
+    </center>
+
+  </div>
+<script src="main.js"></script>
+
+  </body>
+</html>
+
+ 

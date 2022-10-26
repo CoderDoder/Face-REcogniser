@@ -1,0 +1,45 @@
+body{
+    background-color: aliceblue;
+}
+
+.heading{
+    width:80%;
+    font-size: 35px;
+}
+
+.name_of_object{
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.591);
+    font-weight: bolder;
+    font-family: cursive;
+}
+
+#h_webcam{
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.874);
+    font-weight: bolder;
+    font-family: cursive;
+}
+
+#camera,#results{
+    border: 7px ridge rgb(40, 90, 151);
+    width: 400px;
+    height:400px;
+}
+.button{
+    height: 80px;
+    width:70%;
+    border:7px solid rgb(0, 0, 102);
+    font-size: 25px ;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: cursive;
+    color: rgb(255, 255, 255);
+}
+
+#result_name,#result_accuracy{
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: rgba(0, 0, 0, 0.559);
+}
